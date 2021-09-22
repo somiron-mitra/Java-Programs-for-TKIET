@@ -1,0 +1,26 @@
+EXECUTION OF A JAVA PROGRAM   
+
+Static loading:  A block of code would be loaded into the RAM before it executed ( i.e after being loaded into the RAM it may or may not get executed )
+
+Dynamic loading:  A block of code would be loaded into the RAM only when it is required to be executed.
+
+Note:  Static loading took place in the execution of structured programming languages. EX:  c- language
+
+Java  follows the Dynamic loading
+
+–     JVM would not convert all the statements of the class file into its executable code at a time.
+
+–     Once the control comes out from the method, then it is deleted from the RAM and another method of exe type will be loaded as required.
+
+–     Once the control comes out from the main ( ), the main ( ) method would also be deleted from the RAM. This is why we are not able to view the exe contents of a class file.
+
+
+A Simple Hello Word Program
+
+class HelloWorld
+{
+   public static void main(String args[])
+   {
+      System.out.println("Hello World");
+   }
+}
